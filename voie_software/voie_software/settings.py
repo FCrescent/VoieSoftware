@@ -1,3 +1,4 @@
+import os
 """
 Django settings for voie_software project.
 
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'voie_software.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
