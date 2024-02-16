@@ -30,6 +30,7 @@ Ce projet aura pour but d'encourager les programmeurs à maîtriser les compéte
 - Langage (JS, Python, C, ...)
 - Framework de langage (React, Flask, ...)
 - Technos complémentaires (Docker, Kubernetes, ...)
+- Memory management (C, C++, ...)
 
 
 
